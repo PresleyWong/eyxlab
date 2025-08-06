@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Eyxlab - Crafting Digital Experiments That Work</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        scroll-behavior: smooth;
+      }
+      .hero {
+        background: linear-gradient(to right, #0d6efd, #6610f2);
+        color: white;
+        padding: 6rem 1rem;
+      }
+      .tagline {
+        font-size: 1.25rem;
+        font-weight: 300;
+      }
+      .section-title {
+        margin-bottom: 2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">Eyxlab</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero text-center">
+      <div class="container">
+        <h1 class="display-4 fw-bold">Eyxlab</h1>
+        <p class="tagline">Crafting Digital Experiments That Work</p>
+        <a href="#contact" class="btn btn-light btn-lg mt-4">Get in Touch</a>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h2 class="section-title">Who We Are</h2>
+            <p><strong>What’s in a name? For us — everything.</strong></p>
+
+            <p>
+              <strong>EyxLab</strong> (pronounced <em>"eye-ex lab"</em>) is a
+              name born from the fusion of <strong>vision</strong>,
+              <strong>technology</strong>, and <strong>experimentation</strong>.
+              The prefix <strong>“Eyx”</strong> is intentionally abstract —
+              hinting at <em>“eye”</em> for clarity and insight, and
+              <em>“x”</em> for the unknown, the future, the experimental.
+              Coupled with <strong>“Lab”</strong>, it reflects our identity as a
+              place where bold ideas are tested, refined, and brought to life.
+            </p>
+
+            <p>
+              We chose a name that’s <strong>short</strong>,
+              <strong>memorable</strong>, and
+              <strong>completely our own</strong> — just like the products and
+              solutions we build.
+            </p>
+
+            <h2>Our Vision</h2>
+            <p>
+              To become a creative and technical force that brings bold, useful,
+              and beautifully crafted digital products to life — tools that
+              empower, simplify, and inspire.
+            </p>
+
+            <h2>Our Mission</h2>
+            <ul>
+              <li>
+                To
+                <strong>build smart, efficient, and elegant solutions</strong>
+                through clean code and thoughtful design.
+              </li>
+              <li>
+                To
+                <strong
+                  >collaborate with startups, founders, and
+                  forward-thinkers</strong
+                >
+                who want to shape the future.
+              </li>
+              <li>
+                To <strong>experiment, learn, and adapt</strong> — because
+                innovation doesn’t come from comfort zones.
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <img
+              src="https://placehold.co/600x400?text=Eyxlab"
+              class="img-fluid rounded"
+              alt="Web Development"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="bg-light py-5">
+      <div class="container">
+        <h2 class="section-title text-center">Our Services</h2>
+        <div class="row text-center">
+          <div class="col-md-4 mb-4">
+            <div class="card h-100">
+              <div class="card-body">
+                <h5 class="card-title">Shopify Store Setup</h5>
+                <p class="card-text">
+                  From planning to launch, we guide you through the complete
+                  Shopify setup process.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card h-100">
+              <div class="card-body">
+                <h5 class="card-title">Theme Customization</h5>
+                <p class="card-text">
+                  We design and customize Shopify themes to reflect your brand
+                  and optimize conversion.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card h-100">
+              <div class="card-body">
+                <h5 class="card-title">Ruby on Rails Web Development</h5>
+                <p class="card-text">
+                  Custom backend solutions, admin panels, APIs, and full-stack
+                  Rails apps tailored to your business goals.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+      <div class="container">
+        <h2 class="section-title text-center">Get in Touch</h2>
+        <div class="row justify-content-center">
+          <div class="col-md-8">
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" required />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" required />
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea
+                  class="form-control"
+                  id="message"
+                  rows="5"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4">
+      <div class="container">
+        <p class="mb-1">&copy; 2025 Eyxlab. All rights reserved.</p>
+        <small>Shopify Partner & Ruby on Rails Web Developer</small>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
